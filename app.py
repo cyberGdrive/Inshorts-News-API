@@ -9,7 +9,7 @@ CORS(app)
 
 @app.route('/')
 def home():
-    return 'News API is UP!<br><br>A part of <a href="https://t.me/sjprojects">Sj Projects</a>'
+    return 'Indian Cyber Heros News API!<br><br>A part of <a href="https://www.facebook.com/indiancybertroops">Indian Cyber Troops</a><br> With Love CyberNobie'
 
 @app.route('/news')
 def news():
