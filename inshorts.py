@@ -84,6 +84,6 @@ def getNews(category):
             'readMoreUrl': readMoreUrl
         }
 
-        newsDictionary[''].append(newsObject)
+        newsDictionary.append(newsObject)
 
     return newsDictionary
